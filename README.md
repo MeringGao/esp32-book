@@ -13,6 +13,8 @@ We will be using one of the development board "ESP32 DevKit V1", which comes wit
 
 You can access the MD book here: https://esp32.implrust.com/
 
+中文版地址: https://meringgao.github.io/esp32-book/
+
 or you can run locally
 
 ```sh
