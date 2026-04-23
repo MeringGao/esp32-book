@@ -40,13 +40,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build English version
-        run: mdbook build
       - name: Build Chinese version
         run: |
           cp book.toml book.toml.bak
           cp book-zh.toml book.toml
-          mdbook build --dest-dir book/zh
+          mdbook build
           cp book.toml.bak book.toml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
