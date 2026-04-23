@@ -1,5 +1,7 @@
 # 简介
 
+> [Read in English (阅读英文版)](./)
+
 在本书中，我们将使用 ESP32 DevKit V1 和 Rust 来构建简单有趣的项目。ESP32 是一款广受欢迎的物联网（IoT）微控制器（Microcontroller），我们采用动手实践（hands-on）的方式，帮助你在实践中学习。你将探索如何使用光敏电阻（LDR）在天色变暗时点亮 LED、使用超声波传感器检测物体靠近、通过 Wi-Fi 控制 LED、在 OLED 显示屏上绘制图像和文字、使用蜂鸣器播放歌曲和警报声、控制舵机（Servo Motor）等等。
 
 我们将使用 Rust 的 `no_std` 环境。虽然可以在 std 环境下为 ESP32 编程，但我认为从 no_std 开始更好，因为这能让你在与其他微控制器（Microcontroller）打交道时应用相同的逻辑。

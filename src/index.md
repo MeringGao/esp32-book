@@ -1,5 +1,7 @@
 # Intro
 
+> [阅读中文版 (Read in Chinese)](./zh/)
+
 In this book, we use the ESP32 DevKit v1 with Rust to build simple and fun projects. The ESP32 is a popular microcontroller for IoT applications, and we take a hands-on approach to help you learn by doing. You will explore how to turn on an LED when the room gets darker using an LDR, use an ultrasonic sensor to detect when something is close, control an LED through Wi-Fi, draw images/text on an OLED display, play songs and alarm sound with a buzzer, control a servo motor, and more.
 
 We'll use Rust's `no_std` environment. While it's possible to program the ESP32 in a std environment, I feel it's better to start with no_std, as it enables you to apply the same logic when working with other microcontrollers.
