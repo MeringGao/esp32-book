@@ -1,0 +1,18 @@
+[book]
+title = "impl Rust for ESP32（中文版）"
+authors = ["ImplFerris", "中文译者"]
+language = "zh"
+src = "zh/src"
+
+[output.html]
+git-repository-url = "https://github.com/ImplFerris/esp32-book"
+cname = "esp32.implrust.com"
+preferred-dark-theme = "ayu"
+default-theme = "dark"
+mathjax-support = true
+sidebar-header-nav = false
+additional-css = ["theme/css/custom.css"]
+
+[output.html.fold]
+enable = true
+level = 1
