@@ -5,7 +5,7 @@ language = "zh"
 src = "zh/src"
 
 [output.html]
-git-repository-url = "https://github.com/ImplFerris/esp32-book"
+git-repository-url = "https://github.com/MeringGao/esp32-book"
 cname = "esp32.implrust.com"
 preferred-dark-theme = "ayu"
 default-theme = "dark"
